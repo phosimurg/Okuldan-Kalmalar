@@ -1,0 +1,115 @@
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background: #262626;
+  box-sizing: border-box;
+  width: 100%;
+  z-index:2;
+}
+
+header .logo{
+
+  color: #fff;
+  height: 50px;
+  line-height: :50px;
+  font-size: 25px;
+  float: left;
+  font-weight: bold;
+  font-family: 'raleway',sans-serif;
+  
+}
+
+.logo a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+header nav{
+  float: right;
+}
+
+header nav ul{
+  margin:0;
+  padding: 0;
+  display: flex;
+  z-index: 2;
+  transition: 0.7s ease-in;
+}
+header nav ul li{
+  list-style: none;
+  font-family: 'raleway',sans-serif;
+  transition: 0.7s ease-in;
+}
+
+header nav ul li a{
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  transition: 0.7s ease-in;
+}
+
+header nav ul li a:hover, header nav ul li a.active{
+  color: #fff;
+  background: #1e90ff;
+  transition: 0.7s ;
+}
+
+.menu-toggle{
+  color: #fff;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+
+}
+
+@media (max-width: 991px ) {
+
+header{
+  padding: 0 20px;
+  z-index: 2;
+}
+
+.menu-toggle{
+  display:block;
+
+}
+
+header nav{
+  padding: 0;
+  position:absolute;
+  width: 100%;
+  background: #333;
+  top: 50px;
+  left: -110%;
+  transition: 0.5s ease-in;
+  z-index: 2;
+}
+
+header nav.active{
+  left: 0;
+}
+
+header nav ul{
+  display: block;
+  text-align: center;
+  z-index: 2;
+  transition: 0.7s ease-in;
+}
+
+header nav ul li a{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+}

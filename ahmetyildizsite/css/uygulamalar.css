@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+  margin:0;
+  padding: 0;
+  font-family:sans-serif;
+  background: url(https://t.hizliresim.com/jqOGlg.jpg)no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+object-fit: cover;
+}
+
+.anakutu{
+  margin: auto;
+  padding: 0px;
+  width:100%;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  top:20%;
+  background: rgba(0,0,0,0.4);
+
+}
+
+
+.ickutu{
+  margin: auto;
+  }
+
+
+.ickutu2{
+  margin: auto;
+}
+
+.imgkutu{
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  background: url(https://i.hizliresim.com/P7ZdGb.jpg)center no-repeat;
+  background-size: cover;
+
+}
+
+.ickutu h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: #227093;
+}
+
+
+
+.ickutu h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color: #2ed573;
+
+
+}
+
+
+.ickutu h4{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #2d98da;
+}
+
+.ickutu2 h2{
+  color:#227093;
+  font-family: 'Raleway', sans-serif;
+}
+
+.playlink{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #2ed573;
+}
+.playlink2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #2ed573;
+  transition: 0.4s ease-in;
+  text-decoration: none;
+}
+
+.playlink2:hover{
+
+  font-size: 22px;
+  color: #5352ed;
+}
+
+.githublink{
+font-size: 25px;
+  color: #2ed573;
+}
+
+.githublink2{
+  font-family: "Raleway";
+  transition: 0.4s ease-in;
+  font-size: 20px;
+  text-decoration: none;
+  color: #2ed573;
+}
+
+.githublink2:hover{
+  font-size: 22px;
+  color: #5352ed;
+}
+
+#baslik{
+  font-size:55px;
+  font-family: 'Raleway', sans-serif;
+  color: #1e272e;
+}
+#baslik2{
+  font-size:30px;
+  font-family: 'Raleway', sans-serif;
+  color: #b71540;
+}

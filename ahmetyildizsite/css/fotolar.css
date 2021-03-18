@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+  margin:0;
+  padding: 0;
+  font-family:sans-serif;
+  background: url(https://t.hizliresim.com/jqOGlg.jpg)no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+object-fit: cover;
+}
+
+.ortadiv{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0px;
+  position: absolute;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  top:15%;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Raleway";
+}
+
+
+.ortadiv h1{
+  color: #27ae60;
+
+}
+
+.ortadiv h3{
+  color: #2980b9;
+
+}
+.ortadiv a{
+  color: #e74c3c;
+  transition: 0.5s;
+  font-size: 19px;
+  text-decoration: none;
+}
+.ortadiv a:hover{
+  color: #8e44ad;
+  font-size: 20px;
+}
+
+.responsive {
+  width: 100%;
+   max-width: 400px;
+   height: auto;
+}

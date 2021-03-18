@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+
+
+body{
+  margin:0;
+  padding: 0;
+  font-family:sans-serif;
+  background: url("https://i.hizliresim.com/gP00N0.jpg") rgba(0,0,0,0.4)no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+object-fit: cover;
+}
+
+
+
+.ortadiv{
+
+    padding: 0;
+    margin:0 auto;
+    background: rgba(0,0,0,0.4);
+    max-width: 700px;
+    width:100%;
+    top: 70px;
+    position: relative;
+    text-align: center;
+
+    }
+
+
+    .ortadiv h1{
+
+      font-family: 'Raleway',sans-serif;
+      text-align: center;
+      color: #ecf0f1;
+
+
+    }
+
+
+
+    .contact-form{
+
+      max-width: 600px;
+      margin:auto;
+      overflow: hidden;
+      align-items: center;
+
+    }
+
+    .contact-form-text{
+      display: block;
+      width: 100%;
+      margin: 20px 0px;
+      border:0;
+      background: #111;
+      padding: 20px 40px;
+      outline: none;
+      color: #ddd;
+      transition: 0.5s;
+
+    }
+
+    .contact-form-text:focus{
+      box-shadow: 0 0 20px 6px #5ED7FF;
+      transition: 0.5s;
+    }
+
+
+    textarea.contact-form-text{
+      height: 120px;
+
+    }
+
+    .contact-form-btn{
+      float: right;
+      border: 0;
+      background: #0991E8;
+      color: #fff;
+      padding: 9px 50px;
+      border-radius: 20px;
+      cursor: pointer;
+      position: static;
+      margin: 0 0 10px 10px;
+      transition: 0.4s ease-in;
+    }
+
+    .contact-form-btn:hover{
+      background: #12FFD8;
+
+    }

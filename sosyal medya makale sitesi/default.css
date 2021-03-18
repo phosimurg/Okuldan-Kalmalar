@@ -1,0 +1,249 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin-top: 20px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+	background: url(images/arkaplan6.jpg)no-repeat center center fixed;
+	background-repeat:no-repeat;
+
+	background-size: cover;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+p, blockquote, ul, ol {
+}
+
+a {
+	color: #C90404;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+img.right {
+	float: right;
+	float: 0 0 0 15px;
+}
+
+/* Header */
+
+#header {
+	width: 770px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	background: url(images/headerbanner1.jpg);
+	background-repeat:no-repeat;
+
+	background-size: cover;
+}
+
+#header h1, #header h2 {
+	float: left;
+	font-weight: normal;
+}
+
+#header h1 {
+	padding: 14px 0 0 180px;
+	letter-spacing: 4px;
+	font-size: 30px;
+}
+
+#header h2 {
+	padding: 31px 0 0 10px;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #90210A;
+}
+
+/* Header2 */
+
+#header2 {
+	width: 770px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+
+}
+
+#header2 h1, #header2 h2 {
+	float: center;
+	font-weight: normal;
+}
+
+#header2 h1 {
+	padding: 14px 0 0 180px;
+	letter-spacing: 4px;
+	font-size: 30px;
+}
+
+#header2 h2 {
+	padding: 31px 0 0 10px;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+#header2 a {
+	text-decoration: none;
+	color: #90210A;
+}
+
+
+
+/* Page */
+
+#page {
+	width: 770px;
+	margin: 0 auto;
+	background: url(images/img2.gif) repeat-y;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 380px;
+	padding: 0 20px;
+	background: url(images/img4.gif) no-repeat;
+}
+
+#content .post {
+}
+
+#content .post h2 {
+	margin-bottom: 1em;
+	text-transform: none;
+	font-weight: normal;
+	color: #333333;
+}
+
+#content .post h3 {
+	margin-bottom: 1em;
+	font-size: 100%;
+}
+
+#content .post p, #content .post ul, #content .post ol {
+	margin-bottom: 1em;
+	line-height: 1.5em;
+}
+
+#content .post blockquote, #content .post ul, #content .post ol {
+	margin-left: 3em;
+}
+
+/* Ad Space */
+
+#adspace {
+	float: right;
+	width: 120px;
+	padding: 15px 25px;
+	background: url(images/arkaplan3.jpg) no-repeat;
+	background-repeat:no-repeat;
+
+	background-size: cover;
+	
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 150px;
+	padding: 15px;
+	background: url(images/img3.gif) no-repeat;
+}
+
+.boxed {
+}
+
+.boxed h2 {
+	margin: 15px 0;
+	padding-left: 20px;
+	background: url(images/img6.gif) no-repeat left bottom;
+	font-size: 92%;
+	color: #3A2403;
+}
+
+.boxed .list {
+	background: url(images/img7.gif) repeat-x;
+	list-style: none;
+}
+
+.boxed .list li {
+	padding: 10px 0 15px 0;
+	background: url(images/img7.gif) repeat-x left bottom;
+}
+
+.boxed .list h3 {
+	font-size: 77%;
+}
+
+/* Menu */
+
+#menu {
+}
+
+#menu ul {
+	list-style: none;
+	background: url(images/img7.gif) repeat-x;
+}
+
+#menu li {
+	padding: 5px 0;
+	background: url(images/img7.gif) repeat-x left bottom;
+}
+
+#menu a {
+	text-decoration: none;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Footer */
+
+#footer {
+	width: 140px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 20px 610px 0 20px;
+	background: url(images/img8.gif) no-repeat;
+	font-size: 77%;
+}
+
+#footer p {
+	margin-bottom: 1em;
+	line-height: normal;
+}

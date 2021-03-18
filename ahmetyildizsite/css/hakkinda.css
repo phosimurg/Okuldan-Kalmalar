@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+
+body{
+  margin:0;
+  padding: 0;
+  font-family:sans-serif;
+  background: url(https://t.hizliresim.com/jqOGlg.jpg)no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+object-fit: cover;
+
+}
+
+
+
+.ortadiv{
+    margin: auto;
+    padding: 0px;
+    float: left;
+    width:100%;
+    position: absolute;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    top:10%;
+
+    }
+
+    .box{
+      width: 100%;
+      padding:0px;
+      text-align: center;
+      margin:auto;
+      color: white;
+      font-family: 'Century Gothic',sans-serif;
+      position: static;
+      background: rgba(0,0,0,0.4);
+
+    }
+
+    .yazikutu{
+      margin: auto;
+
+    }
+
+    .box-img{
+      margin: auto;
+      border-radius: 50%;
+      width: 155px;
+      height: 150px;
+      background:url(https://i.hizliresim.com/P7WbvN.jpg)no-repeat center ;
+      background-size: cover;
+
+    }
+    .box h1{
+      font-size: 40px;
+      letter-spacing: 4px;
+      font-weight: 100;
+
+    }
+    .box h5{
+      font-size: 25px;
+      letter-spacing: 3px;
+      font-weight: 100;
+    }
+
+    .box p{
+      text-align:center;
+      font-family:'Montserrat', sans-serif;
+    }
+
+    ul{
+      margin:0;
+      padding: 0;
+
+    }
+
+    .box li{
+      display: inline-block;
+      margin: 6px;
+      list-style: none;
+    }
+
+
+        .box li a{
+          color: white;
+          text-decoration: none;
+          font-size: 40px;
+          transition: 0.3s ease-in;
+        }
+
+        .box li a:hover{
+          color: turquoise;
+
+        }
+
+#baslik{
+  font-size:55px;
+  font-family: 'Raleway Light';
+  color: #1e272e;
+}
+#baslik2{
+  font-size:30px;
+  font-family: 'Raleway Light';
+  color: #b71540;
+}

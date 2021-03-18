@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  padding: 0;
+  background: url("https://i.hizliresim.com/DO01n3.jpg")no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+object-fit: cover;
+}
+
+.kutu{
+  margin: auto;
+  padding: 0px;
+  width:100%;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  top:40%;
+  background: rgba(0,0,0,0.4);
+
+}
+.imgkutu{
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  background: url(https://s3-eu-west-1.amazonaws.com/sales-i-wordpress/wp-content/uploads/2017/06/05171543/ThumbsUp.png)center no-repeat;
+  background-size: cover;
+}
+
+.sayac{
+  margin: auto;
+  position: absolute;
+
+}
+
+.kutu h1{
+  font-family: 'Raleway Light';
+  font-size: 35px;
+  color: white;
+}
+
+.kutu h2{
+  font-family: 'Raleway Light';
+  font-size: 25px;
+  color: #2ed573;
+}
+
+
+.kutu h4{
+  font-family: 'Raleway Light';
+  font-size: 16px;
+  color: red;
+}
